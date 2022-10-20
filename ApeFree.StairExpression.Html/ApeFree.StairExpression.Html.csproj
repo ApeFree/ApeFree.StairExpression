@@ -26,5 +26,14 @@
 			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ApeFree.StairExpression\ApeFree.StairExpression.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+	  <PackageReference Include="STTech.CodePlus" Version="1.5.9" />
+	</ItemGroup>
 	
 </Project>
