@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApeFree.StairExpression", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApeFree.StairExpression.Xml", "ApeFree.StairExpression.Xml\ApeFree.StairExpression.Xml.csproj", "{E1108048-9DC4-4D42-A47D-94C154740B4A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApeFree.SemanticParse", "ApeFree.SemanticParse\ApeFree.SemanticParse.csproj", "{4F0D5CE2-5A2F-43EE-9657-1CE0D8D2B1C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApeFree.StairExpression.Html", "ApeFree.StairExpression.Html\ApeFree.StairExpression.Html.csproj", "{81862367-C52E-4453-8601-CC2549B54D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApeFree.StairExpression.Html", "ApeFree.StairExpression.Html\ApeFree.StairExpression.Html.csproj", "{81862367-C52E-4453-8601-CC2549B54D13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApeFree.StairExpression.Demo", "ApeFree.StairExpression.Demo\ApeFree.StairExpression.Demo.csproj", "{4C73B06B-EEE8-4494-B3FE-70369B4CC200}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{E1108048-9DC4-4D42-A47D-94C154740B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1108048-9DC4-4D42-A47D-94C154740B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1108048-9DC4-4D42-A47D-94C154740B4A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F0D5CE2-5A2F-43EE-9657-1CE0D8D2B1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F0D5CE2-5A2F-43EE-9657-1CE0D8D2B1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F0D5CE2-5A2F-43EE-9657-1CE0D8D2B1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F0D5CE2-5A2F-43EE-9657-1CE0D8D2B1C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81862367-C52E-4453-8601-CC2549B54D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{81862367-C52E-4453-8601-CC2549B54D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81862367-C52E-4453-8601-CC2549B54D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81862367-C52E-4453-8601-CC2549B54D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C73B06B-EEE8-4494-B3FE-70369B4CC200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C73B06B-EEE8-4494-B3FE-70369B4CC200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C73B06B-EEE8-4494-B3FE-70369B4CC200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C73B06B-EEE8-4494-B3FE-70369B4CC200}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
