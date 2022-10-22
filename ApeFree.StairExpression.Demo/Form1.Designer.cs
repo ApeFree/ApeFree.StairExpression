@@ -32,12 +32,13 @@
             this.tbExpression = new System.Windows.Forms.TextBox();
             this.tbHtml = new System.Windows.Forms.RichTextBox();
             this.tbResult = new System.Windows.Forms.RichTextBox();
+            this.cbExpression = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // tbExpression
             // 
             this.tbExpression.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tbExpression.Location = new System.Drawing.Point(0, 0);
+            this.tbExpression.Location = new System.Drawing.Point(0, 20);
             this.tbExpression.Name = "tbExpression";
             this.tbExpression.Size = new System.Drawing.Size(1113, 21);
             this.tbExpression.TabIndex = 0;
@@ -47,9 +48,9 @@
             // tbHtml
             // 
             this.tbHtml.Dock = System.Windows.Forms.DockStyle.Left;
-            this.tbHtml.Location = new System.Drawing.Point(0, 21);
+            this.tbHtml.Location = new System.Drawing.Point(0, 41);
             this.tbHtml.Name = "tbHtml";
-            this.tbHtml.Size = new System.Drawing.Size(636, 564);
+            this.tbHtml.Size = new System.Drawing.Size(636, 544);
             this.tbHtml.TabIndex = 1;
             this.tbHtml.Text = resources.GetString("tbHtml.Text");
             this.tbHtml.WordWrap = false;
@@ -57,11 +58,23 @@
             // tbResult
             // 
             this.tbResult.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbResult.Location = new System.Drawing.Point(636, 21);
+            this.tbResult.Location = new System.Drawing.Point(636, 41);
             this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(477, 564);
+            this.tbResult.Size = new System.Drawing.Size(477, 544);
             this.tbResult.TabIndex = 2;
             this.tbResult.Text = "";
+            // 
+            // cbExpression
+            // 
+            this.cbExpression.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cbExpression.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbExpression.Dock = System.Windows.Forms.DockStyle.Top;
+            this.cbExpression.FormattingEnabled = true;
+            this.cbExpression.Location = new System.Drawing.Point(0, 0);
+            this.cbExpression.Name = "cbExpression";
+            this.cbExpression.Size = new System.Drawing.Size(1113, 20);
+            this.cbExpression.TabIndex = 3;
+            this.cbExpression.TextChanged += new System.EventHandler(this.cbExpression_TextChanged);
             // 
             // Form1
             // 
@@ -71,6 +84,7 @@
             this.Controls.Add(this.tbResult);
             this.Controls.Add(this.tbHtml);
             this.Controls.Add(this.tbExpression);
+            this.Controls.Add(this.cbExpression);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -83,6 +97,7 @@
         private System.Windows.Forms.TextBox tbExpression;
         private System.Windows.Forms.RichTextBox tbHtml;
         private System.Windows.Forms.RichTextBox tbResult;
+        private System.Windows.Forms.ComboBox cbExpression;
     }
 }
 
