@@ -1,0 +1,1761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tbHtml.Text" xml:space="preserve">
+    <value>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+
+        &lt;link rel="canonical" href="https://www.nuget.org/packages/STTech.CodePlus/"&gt;
+
+    
+        &lt;meta property="fb:app_id" content="235682883225736" /&gt;
+
+    &lt;meta name="twitter:card" content="summary"&gt;
+    &lt;meta name="twitter:site" content="@nuget"&gt;
+
+    &lt;meta property="og:title" content="STTech.CodePlus 1.5.10" /&gt;
+    &lt;meta property="og:type" content="nugetgallery:package" /&gt;
+    &lt;meta property="og:url" content="https://www.nuget.org/packages/STTech.CodePlus/" /&gt;
+    &lt;meta property="og:description" content="常用类型扩展库，为常用数据类型提供更加丰富的代码扩展，使开发更加简单。更多的使用方法请参考项目URL。" /&gt;
+    &lt;meta property="og:determiner" content="a" /&gt;
+    &lt;meta property="og:image" content="https://api.nuget.org/v3-flatcontainer/sttech.codeplus/1.5.10/icon" /&gt;
+
+        &lt;link rel="alternate" type="application/atom+xml" title="Subscribe to STTech.CodePlus updates" href="/packages/STTech.CodePlus/atom.xml" /&gt;
+
+    
+    &lt;meta name="description" content="常用类型扩展库，为常用数据类型提供更加丰富的代码扩展，使开发更加简单。更多的使用方法请参考项目URL。"&gt;
+
+
+    &lt;title&gt;
+        NuGet Gallery
+        | STTech.CodePlus 1.5.10
+    &lt;/title&gt;
+
+    &lt;link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" /&gt;
+        &lt;link title="NuGet.org" type="application/opensearchdescription+xml" href="/opensearch.xml" rel="search"&gt;
+
+    &lt;link href="/Content/gallery/css/site.min.css?v=ogbd3Phjhxeto4Q_JB0vKPsc0DmbgZH13YwvAxS4fkc1" rel="stylesheet"/&gt;
+
+
+    &lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;
+    &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"&gt;&lt;/script&gt;
+      &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    
+    
+    
+    
+                &lt;script type="text/javascript"&gt;
+                var appInsights = window.appInsights || function (config) {
+                    function s(config) {
+                        t[config] = function () {
+                            var i = arguments;
+                            t.queue.push(function () { t[config].apply(t, i) })
+                        }
+                    }
+
+                    var t = { config: config }, r = document, f = window, e = "script", o = r.createElement(e), i, u;
+                    for (o.src = config.url || "//az416426.vo.msecnd.net/scripts/a/ai.0.js", r.getElementsByTagName(e)[0].parentNode.appendChild(o), t.cookie = r.cookie, t.queue = [], i = ["Event", "Exception", "Metric", "PageView", "Trace"]; i.length;) s("track" + i.pop());
+                    return config.disableExceptionTracking || (i = "onerror", s("_" + i), u = f[i], f[i] = function (config, r, f, e, o) {
+                        var s = u &amp;&amp; u(config, r, f, e, o);
+                        return s !== !0 &amp;&amp; t["_" + i](config, r, f, e, o), s
+                    }), t
+                }({
+                    instrumentationKey: 'df3a36b9-dfba-401c-82ab-35690083be3e',
+                    samplingPercentage: 100
+                });
+
+                window.appInsights = appInsights;
+                appInsights.trackPageView();
+            &lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    
+
+&lt;div id="cookie-banner"&gt;&lt;/div&gt;
+
+
+
+
+&lt;nav class="navbar navbar-inverse" role="navigation"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-sm-12 text-center"&gt;
+                &lt;a href="#" id="skipToContent" class="showOnFocus" title="Skip To Content"&gt;Skip To Content&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-sm-12"&gt;
+                &lt;div class="navbar-header"&gt;
+                    &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"&gt;
+                        &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+                        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                    &lt;/button&gt;
+                    &lt;a href="/"&gt;
+                        &lt;img class="navbar-logo" width="94" height="29" alt="NuGet home"
+                             src="/Content/gallery/img/logo-header.svg"
+                                 onerror="this.src='https://www.nuget.org/Content/gallery/img/logo-header-94x29.png'; this.onerror = null;"
+ /&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="navbar" class="navbar-collapse collapse"&gt;
+                    &lt;ul class="nav navbar-nav" role="tablist"&gt;
+                            &lt;li class="active" role="presentation"&gt;
+        &lt;a role="tab" aria-selected="true" href="/packages"&gt;
+            &lt;span&gt;Packages&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+
+                            &lt;li class="" role="presentation"&gt;
+        &lt;a role="tab" aria-selected="false" href="/packages/manage/upload"&gt;
+            &lt;span&gt;Upload&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li class="" role="presentation"&gt;
+        &lt;a role="tab" aria-selected="false" href="/stats"&gt;
+            &lt;span&gt;Statistics&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+                                                    &lt;li class="" role="presentation"&gt;
+        &lt;a role="tab" aria-selected="false" href="https://docs.microsoft.com/en-us/nuget/"&gt;
+            &lt;span&gt;Documentation&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+
+                            &lt;li class="" role="presentation"&gt;
+        &lt;a role="tab" aria-selected="false" href="/downloads"&gt;
+            &lt;span&gt;Downloads&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+
+                            &lt;li class="" role="presentation"&gt;
+        &lt;a role="tab" aria-selected="false" href="https://blog.nuget.org/"&gt;
+            &lt;span&gt;Blog&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+
+                    &lt;/ul&gt;
+                        &lt;ul class="nav navbar-nav navbar-right" role="tablist"&gt;
+                                &lt;li class=" dropdown" role="presentation"&gt;
+                                    &lt;a href="#" aria-selected="false" role="tab" id="account-dropdown" class="dropdown-toggle" title="Open profile dropdown" data-toggle="dropdown"&gt;
+                                        &lt;div&gt;
+                                            &lt;b&gt;&lt;span&gt;GuijieLee&lt;/span&gt;&lt;/b&gt;
+                                            &lt;span class="caret"&gt;&lt;/span&gt;
+                                        &lt;/div&gt;
+                                    &lt;/a&gt;
+                                    &lt;ul class="dropdown-menu" role="menu" aria-labelledby="account-dropdown"&gt;
+                                        &lt;li class="dropdown-header row"&gt;
+                                            &lt;div class="col-sm-3"&gt;
+                                                &lt;img src="/profiles/GuijieLee/avatar?imageSize=100"
+                                class="owner-image"
+                                height="50"
+                                width="50"
+                                title="GuijieLee"
+                                alt="GuijieLee gravatar" /&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class="col-sm-9 dropdown-profile"&gt;
+                                                &lt;span class="dropdown-username"&gt;GuijieLee&lt;/span&gt;
+                                                &lt;br /&gt;
+                                                &lt;span class="dropdown-email"&gt;landriesnidis@yeah.net&lt;/span&gt;
+                                            &lt;/div&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="divider"&gt;&lt;/li&gt;
+                                        &lt;li role="presentation"&gt;&lt;a href="/profiles/GuijieLee" role="menuitem"&gt;View Profile&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li role="presentation"&gt;
+                                            &lt;a href="/account" role="menuitem"&gt;
+                                                Account Settings
+                                            &lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li role="presentation"&gt;&lt;a href="/account/apikeys" role="menuitem"&gt;API Keys&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li class="divider"&gt;&lt;/li&gt;
+                                        &lt;li role="presentation"&gt;&lt;a href="/account/Organizations" role="menuitem"&gt;Manage Organizations&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li role="presentation"&gt;&lt;a href="/account/Packages" role="menuitem"&gt;Manage Packages&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li role="presentation"&gt;&lt;a href="/packages/manage/upload" role="menuitem"&gt;Upload Package&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li class="divider"&gt;&lt;/li&gt;
+                                        &lt;li role="presentation"&gt;
+                                            &lt;form action="/users/account/LogOff" class="" id="log-off-form" method="post"&gt;&lt;input name="__RequestVerificationToken" type="hidden" value="0KTPzMXdXroR3f-2a504SsRWEUSjKPBCqBYvnWOnmaVDEiyjJoMZe_2CbbOFtFuA0ndod3D9UC6KOrdP67jQOOxGqEV-30Lf4W6Pvw2YmTNq79PryKR1Or-5wdQu5WwP1ApwApRRZKxaQZrBQ3DGrQ2" /&gt;                &lt;input type="hidden" name="returnUrl" value="/packages/STTech.CodePlus/" /&gt;
+&lt;/form&gt;    &lt;a href="#" class="post-link" data-form-id="log-off-form" role="menuitem"&gt;Sign Out&lt;/a&gt;
+
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                        &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+        &lt;div class="container search-container"&gt;
+            &lt;div class="row"&gt;
+                &lt;form aria-label="Package search bar" class="col-sm-12" action="/packages" method="get"&gt;
+                    &lt;div class="input-group"&gt;
+    &lt;input name="q" type="text" class="form-control" id="search" aria-label="Enter packages to search"
+           placeholder="Search for packages..." autocomplete="off"
+           value=""
+            /&gt;
+    &lt;span class="input-group-btn"&gt;
+        &lt;button class="btn btn-default btn-warning btn-search" type="submit"
+                title="Search for packages" aria-label="Search"&gt;
+            &lt;span class="ms-Icon ms-Icon--Search" aria-hidden="true"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+                    &lt;div id="autocomplete-results-container" class="text-left" tabindex="0"&gt;&lt;/div&gt;
+
+&lt;script type="text/html" id="autocomplete-results-row"&gt;
+    &lt;!-- ko if: $data --&gt;
+    &lt;!-- ko if: $data.PackageRegistration --&gt;
+    &lt;div class="col-sm-4 autocomplete-row-id autocomplete-row-data"&gt;
+        &lt;span data-bind="attr: { id: 'autocomplete-result-id-' + $data.PackageRegistration.Id, title: $data.PackageRegistration.Id }, text: $data.PackageRegistration.Id"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="col-sm-4 autocomplete-row-downloadcount text-right autocomplete-row-data"&gt;
+        &lt;span data-bind="text: $data.DownloadCount + ' downloads'"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="col-sm-4 autocomplete-row-owners text-left autocomplete-row-data"&gt;
+        &lt;span data-bind="text: $data.OwnersString + ' '"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;!-- /ko --&gt;
+    &lt;!-- ko ifnot: $data.PackageRegistration --&gt;
+    &lt;div class="col-sm-12 autocomplete-row-id autocomplete-row-data"&gt;
+        &lt;span data-bind="attr: { id: 'autocomplete-result-id-' + $data, title: $data  }, text: $data"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;!-- /ko --&gt;
+    &lt;!-- /ko --&gt;
+&lt;/script&gt;
+
+&lt;script type="text/html" id="autocomplete-results-template"&gt;
+    &lt;!-- ko if: $data.data.length &gt; 0 --&gt;
+    &lt;div data-bind="foreach: $data.data" id="autocomplete-results-list"&gt;
+        &lt;a data-bind="attr: { id: 'autocomplete-result-row-' + $data, href: '/packages/' + $data, title: $data }" tabindex="-1"&gt;
+            &lt;div data-bind="attr:{ id: 'autocomplete-container-' + $data }" class="autocomplete-results-row"&gt;
+            &lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;!-- /ko --&gt;
+&lt;/script&gt;
+
+                &lt;/form&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/nav&gt;
+
+
+
+
+
+
+    &lt;div id="skippedToContent"&gt;
+    
+
+
+
+
+
+
+
+
+
+
+&lt;section role="main" class="container main-container page-package-details"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-sm-9 package-details-main"&gt;
+            &lt;div class="package-header"&gt;
+                &lt;div class="package-title"&gt;
+                    &lt;h1&gt;
+                        &lt;span class="pull-left"&gt;
+                            &lt;img class="package-icon img-responsive" aria-hidden="true" alt=""
+                                    src="https://api.nuget.org/v3-flatcontainer/sttech.codeplus/1.5.10/icon"
+                                        onerror="this.src='https://www.nuget.org/Content/gallery/img/default-package-icon-256x256.png'; this.onerror = null;"
+ /&gt;
+                        &lt;/span&gt;
+                        &lt;span class="title"&gt;
+                            STTech.&lt;wbr&gt;CodePlus
+                        &lt;/span&gt;
+                        &lt;span class="version-title"&gt;
+                            1.5.10
+                        &lt;/span&gt;
+                    &lt;/h1&gt;
+                &lt;/div&gt;
+
+&lt;div class="framework framework-badges"&gt;
+                    &lt;span class="framework-badge-asset" aria-label="This package is compatible with this framework or higher." data-content="This package is compatible with this framework or higher."&gt;.NET Standard 2.0&lt;/span&gt;
+                &lt;span class="framework-badge-asset" aria-label="This package is compatible with this framework or higher." data-content="This package is compatible with this framework or higher."&gt;.NET Framework 4.5&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+                                                
+
+
+
+
+
+                    &lt;div class="install-tabs"&gt;
+                        &lt;ul class="nav nav-tabs" role="tablist"&gt;
+
+    &lt;li role="presentation" class="active"&gt;
+        &lt;a href="#package-manager" aria-expanded="true"
+           id="package-manager-tab" class="package-manager-tab"
+           aria-selected="true" tabindex="0"
+           aria-controls="package-manager" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for Package Manager"&gt;
+            Package Manager
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li role="presentation" class=""&gt;
+        &lt;a href="#dotnet-cli" aria-expanded="false"
+           id="dotnet-cli-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="dotnet-cli" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for .NET CLI"&gt;
+            .NET CLI
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li role="presentation" class=""&gt;
+        &lt;a href="#package-reference" aria-expanded="false"
+           id="package-reference-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="package-reference" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for PackageReference"&gt;
+            PackageReference
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li role="presentation" class=""&gt;
+        &lt;a href="#paket-cli" aria-expanded="false"
+           id="paket-cli-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="paket-cli" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for Paket CLI"&gt;
+            Paket CLI
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li role="presentation" class=""&gt;
+        &lt;a href="#script-interactive" aria-expanded="false"
+           id="script-interactive-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="script-interactive" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for Script &amp;amp; Interactive"&gt;
+            Script &amp;amp; Interactive
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li role="presentation" class=""&gt;
+        &lt;a href="#cake" aria-expanded="false"
+           id="cake-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="cake" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for Cake"&gt;
+            Cake
+        &lt;/a&gt;
+    &lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;div class="tab-content"&gt;
+
+    &lt;div role="tabpanel" class="tab-pane active" id="package-manager"&gt;
+        &lt;div class="install-script-row"&gt;
+
+            
+            &lt;pre class="install-script" id="package-manager-text"&gt;&lt;span class="install-command-row"&gt;NuGet\Install-Package STTech.CodePlus -Version 1.5.10&lt;/span&gt;&lt;/pre&gt;
+            &lt;div class="copy-button"&gt;
+                &lt;button id="package-manager-button" class="btn btn-default btn-warning" type="button"
+                        data-toggle="popover" data-placement="bottom" data-content="Copied."
+                        aria-label="Copy the Package Manager command" role="button"&gt;
+                    &lt;span class="ms-Icon ms-Icon--Copy" aria-hidden="true"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class="icon-text alert alert-info" &gt;
+        &lt;i class="ms-Icon ms-Icon--Info" aria-hidden="true"&gt;&lt;/i&gt;
+        
+This command is intended to be used within the Package Manager Console in Visual Studio, as it uses the NuGet module's version of &lt;a href='https://docs.microsoft.com/en-us/nuget/reference/ps-reference/ps-ref-install-package'&gt;Install-Package&lt;/a&gt;.
+                    
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div role="tabpanel" class="tab-pane " id="dotnet-cli"&gt;
+        &lt;div class="install-script-row"&gt;
+
+            
+            &lt;pre class="install-script" id="dotnet-cli-text"&gt;&lt;span class="install-command-row"&gt;dotnet add package STTech.CodePlus --version 1.5.10&lt;/span&gt;&lt;/pre&gt;
+            &lt;div class="copy-button"&gt;
+                &lt;button id="dotnet-cli-button" class="btn btn-default btn-warning" type="button"
+                        data-toggle="popover" data-placement="bottom" data-content="Copied."
+                        aria-label="Copy the .NET CLI command" role="button"&gt;
+                    &lt;span class="ms-Icon ms-Icon--Copy" aria-hidden="true"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+    &lt;div role="tabpanel" class="tab-pane " id="package-reference"&gt;
+        &lt;div class="install-script-row"&gt;
+
+            
+            &lt;pre class="install-script" id="package-reference-text"&gt;&lt;span class="install-command-row"&gt;&amp;lt;PackageReference Include=&amp;quot;STTech.CodePlus&amp;quot; Version=&amp;quot;1.5.10&amp;quot; /&amp;gt;&lt;/span&gt;&lt;/pre&gt;
+            &lt;div class="copy-button"&gt;
+                &lt;button id="package-reference-button" class="btn btn-default btn-warning" type="button"
+                        data-toggle="popover" data-placement="bottom" data-content="Copied."
+                        aria-label="Copy the PackageReference XML node" role="button"&gt;
+                    &lt;span class="ms-Icon ms-Icon--Copy" aria-hidden="true"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class="icon-text alert alert-info" &gt;
+        &lt;i class="ms-Icon ms-Icon--Info" aria-hidden="true"&gt;&lt;/i&gt;
+        
+For projects that support &lt;a href="https://docs.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files"&gt;PackageReference&lt;/a&gt;, copy this XML node into the project file to reference the package.
+                    
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div role="tabpanel" class="tab-pane " id="paket-cli"&gt;
+        &lt;div class="install-script-row"&gt;
+
+            
+            &lt;pre class="install-script" id="paket-cli-text"&gt;&lt;span class="install-command-row"&gt;paket add STTech.CodePlus --version 1.5.10&lt;/span&gt;&lt;/pre&gt;
+            &lt;div class="copy-button"&gt;
+                &lt;button id="paket-cli-button" class="btn btn-default btn-warning" type="button"
+                        data-toggle="popover" data-placement="bottom" data-content="Copied."
+                        aria-label="Copy the Paket CLI command" role="button"&gt;
+                    &lt;span class="ms-Icon ms-Icon--Copy" aria-hidden="true"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class="icon-text alert alert-warning"   role="alert" aria-live="assertive"  &gt;
+        &lt;i class="ms-Icon ms-Icon--Warning" aria-hidden="true"&gt;&lt;/i&gt;
+        
+&lt;b display="none" aria-label="warning"&gt;&lt;/b&gt; The NuGet Team does not provide support for this client. Please contact its &lt;a href="https://fsprojects.github.io/Paket/contact.html" aria-label="Contact the maintainers of the Paket CLI client"&gt;maintainers&lt;/a&gt; for support.
+                    
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div role="tabpanel" class="tab-pane " id="script-interactive"&gt;
+        &lt;div class="install-script-row"&gt;
+
+            
+            &lt;pre class="install-script" id="script-interactive-text"&gt;&lt;span class="install-command-row"&gt;#r &amp;quot;nuget: STTech.CodePlus, 1.5.10&amp;quot;&lt;/span&gt;&lt;/pre&gt;
+            &lt;div class="copy-button"&gt;
+                &lt;button id="script-interactive-button" class="btn btn-default btn-warning" type="button"
+                        data-toggle="popover" data-placement="bottom" data-content="Copied."
+                        aria-label="Copy the Script &amp;amp; Interactive command" role="button"&gt;
+                    &lt;span class="ms-Icon ms-Icon--Copy" aria-hidden="true"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class="icon-text alert alert-info" &gt;
+        &lt;i class="ms-Icon ms-Icon--Info" aria-hidden="true"&gt;&lt;/i&gt;
+        
+#r directive can be used in F# Interactive, C# scripting and .NET Interactive. Copy this into the interactive tool or source code of the script to reference the package.
+                    
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div role="tabpanel" class="tab-pane " id="cake"&gt;
+        &lt;div class="install-script-row"&gt;
+
+            
+            &lt;pre class="install-script" id="cake-text"&gt;&lt;span class="install-command-row"&gt;// Install STTech.CodePlus as a Cake Addin
+#addin nuget:?package=STTech.CodePlus&amp;amp;version=1.5.10
+
+// Install STTech.CodePlus as a Cake Tool
+#tool nuget:?package=STTech.CodePlus&amp;amp;version=1.5.10&lt;/span&gt;&lt;/pre&gt;
+            &lt;div class="copy-button"&gt;
+                &lt;button id="cake-button" class="btn btn-default btn-warning" type="button"
+                        data-toggle="popover" data-placement="bottom" data-content="Copied."
+                        aria-label="Copy the Cake command" role="button"&gt;
+                    &lt;span class="ms-Icon ms-Icon--Copy" aria-hidden="true"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class="icon-text alert alert-warning"   role="alert" aria-live="assertive"  &gt;
+        &lt;i class="ms-Icon ms-Icon--Warning" aria-hidden="true"&gt;&lt;/i&gt;
+        
+&lt;b display="none" aria-label="warning"&gt;&lt;/b&gt; The NuGet Team does not provide support for this client. Please contact its &lt;a href="https://cakebuild.net/support/nuget" aria-label="Contact the maintainers of the Cake client"&gt;maintainers&lt;/a&gt; for support.
+                    
+    &lt;/div&gt;
+    &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class="body-tabs"&gt;
+                &lt;ul class="nav nav-tabs" role="tablist"&gt;
+
+                        &lt;li role="presentation" class="active" id="show-readme-container"&gt;
+                            &lt;a href="#readme-tab"
+                               role="tab"
+                               data-toggle="tab"
+                               id="readme-body-tab"
+                               class="body-tab"
+                               aria-controls="readme-tab"
+                               aria-expanded="true"
+                               aria-selected="true"
+                               tabindex="0"&gt;
+                                &lt;i class="ms-Icon ms-Icon--Dictionary" aria-hidden="true"&gt;&lt;/i&gt;
+                                README
+                            &lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li role="presentation" id="show-supportedframeworks-container"&gt;
+                            &lt;a href="#supportedframeworks-tab"
+                                role="tab"
+                                data-toggle="tab"
+                                id="supportedframeworks-body-tab"
+                                class="body-tab"
+                                aria-controls="supportedframeworks-tab"
+                                aria-expanded="false"
+                                aria-selected="false"
+                                tabindex="-1"&gt;
+                                &lt;i class="ms-Icon ms-Icon--Package" aria-hidden="true"&gt;&lt;/i&gt;
+                                Frameworks
+                            &lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li role="presentation"&gt;
+                            &lt;a href="#dependencies-tab"
+                               role="tab"
+                               data-toggle="tab"
+                               id="dependencies-body-tab"
+                               class="body-tab"
+                               aria-controls="dependencies-tab"
+                               aria-expanded="false"
+                               aria-selected="false"
+                               tabindex="-1"&gt;
+                                &lt;i class="ms-Icon ms-Icon--Packages" aria-hidden="true"&gt;&lt;/i&gt;
+                                Dependencies
+                            &lt;/a&gt;
+                        &lt;/li&gt;
+
+                        &lt;li role="presentation"&gt;
+                            &lt;a href="#usedby-tab"
+                               role="tab"
+                               data-toggle="tab"
+                               id="usedby-body-tab"
+                               class="body-tab"
+                               aria-controls="usedby-tab"
+                               aria-expanded="false"
+                               aria-selected="false"
+                               tabindex="-1"&gt;
+                                &lt;i class="ms-Icon ms-Icon--BranchFork2" aria-hidden="true"&gt;&lt;/i&gt;
+                                Used By
+                            &lt;/a&gt;
+                        &lt;/li&gt;
+
+
+                    &lt;li role="presentation"&gt;
+                        &lt;a href="#versions-tab"
+                           role="tab"
+                           data-toggle="tab"
+                           id="versions-body-tab"
+                           class="body-tab"
+                           aria-controls="versions-tab"
+                           aria-expanded="false"
+                           aria-selected="false"
+                           tabindex="-1"&gt;
+                            &lt;i class="ms-Icon ms-Icon--Stopwatch" aria-hidden="true"&gt;&lt;/i&gt;
+                            Versions
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+
+                &lt;/ul&gt;
+            &lt;/div&gt;
+
+            &lt;div class="tab-content body-tab-content"&gt;
+                    &lt;div role="tabpanel" class="tab-pane active" id="readme-tab" aria-label="Readme tab content"&gt;
+                            &lt;div class="readme-common"&gt;
+                                &lt;div id="readme-container"&gt;
+
+
+                                    &lt;h2 id="sttech.codeplus"&gt;STTech.CodePlus&lt;/h2&gt;
+&lt;p&gt;.NET代码扩展库，提供常用类型的功能扩展&lt;/p&gt;
+&lt;h3 id="section"&gt;加入我们&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/17898889/192321864-dade21b8-c6d7-487c-806e-b3a398ed96d2.png" class="img-fluid" alt="CodePlus" /&gt;&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div role="tabpanel" class="tab-pane " id="supportedframeworks-tab" aria-label="Supported frameworks tab content"&gt;
+&lt;table class="framework framework-table" aria-label="Supported frameworks"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th scope="col" class="framework-table-title"&gt;&lt;b&gt;Product&lt;/b&gt;&lt;/th&gt;
+            &lt;th scope="col" class="framework-table-title"&gt;&lt;b&gt;Versions&lt;/b&gt;&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        .NET
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net5.0&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net5.0-windows&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net6.0&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net6.0-android&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net6.0-ios&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net6.0-maccatalyst&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net6.0-macos&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net6.0-tvos&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net6.0-windows&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        .NET Core
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;netcoreapp2.0&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;netcoreapp2.1&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;netcoreapp2.2&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;netcoreapp3.0&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;netcoreapp3.1&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        .NET Standard
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-asset framework-table-margin"&gt;netstandard2.0&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;netstandard2.1&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        .NET Framework
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-asset framework-table-margin"&gt;net45&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net451&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net452&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net46&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net461&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net462&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net463&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net47&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net471&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net472&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;net48&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        MonoAndroid
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;monoandroid&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        MonoMac
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;monomac&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        MonoTouch
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;monotouch&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        Tizen
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;tizen40&lt;/span&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;tizen60&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        Xamarin.iOS
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;xamarinios&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        Xamarin.Mac
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;xamarinmac&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        Xamarin.TVOS
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;xamarintvos&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class="framework-table-product"&gt;
+                        Xamarin.WatchOS
+                    &lt;/td&gt;
+
+                    &lt;td class="framework-table-frameworks"&gt;
+                                &lt;span class="framework-badge-computed framework-table-margin"&gt;xamarinwatchos&lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div&gt;
+    &lt;div&gt;
+        &lt;i class="ms-Icon ms-Icon--SquareShape frameworktableinfo-asset-icon"&gt;&lt;/i&gt;
+        &lt;span class="frameworktableinfo-text"&gt;Compatible target framework(s)&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;i class="ms-Icon ms-Icon--SquareShape frameworktableinfo-computed-icon framework-badge-computed"&gt;&lt;/i&gt;
+        &lt;span class="frameworktableinfo-text"&gt;Additional computed target framework(s)&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;span class="frameworktableinfo-text"&gt;&lt;i&gt;Learn more about &lt;a href='https://docs.microsoft.com/dotnet/standard/frameworks' aria-label="Learn more about Target Frameworks"&gt;Target Frameworks&lt;/a&gt; and &lt;a href='https://docs.microsoft.com/dotnet/standard/net-standard' aria-label="Learn more about .NET Standard"&gt;.NET Standard&lt;/a&gt;.&lt;/i&gt;&lt;/span&gt;
+&lt;/div&gt;                    &lt;/div&gt;
+                    &lt;div role="tabpanel" class="tab-pane " id="dependencies-tab" aria-label="Dependencies tab content"&gt;
+                                    &lt;ul class="list-unstyled dependency-groups" id="dependency-groups"&gt;
+                                            &lt;li&gt;
+                                                    &lt;h4&gt;&lt;span&gt;.NETFramework 4.5&lt;/span&gt;&lt;/h4&gt;
+                                                &lt;ul class="list-unstyled dependency-group"&gt;
+                                                        &lt;li&gt;
+                                                                No dependencies.
+                                                        &lt;/li&gt;
+                                                &lt;/ul&gt;
+                                            &lt;/li&gt;
+                                            &lt;li&gt;
+                                                    &lt;h4&gt;&lt;span&gt;.NETStandard 2.0&lt;/span&gt;&lt;/h4&gt;
+                                                &lt;ul class="list-unstyled dependency-group"&gt;
+                                                        &lt;li&gt;
+                                                                No dependencies.
+                                                        &lt;/li&gt;
+                                                &lt;/ul&gt;
+                                            &lt;/li&gt;
+                                    &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;div role="tabpanel" class="tab-pane " id="usedby-tab" aria-label="Used by tab content"&gt;
+                        &lt;div class="used-by" id="used-by"&gt;
+                                    &lt;h3&gt;
+                                        &lt;strong&gt;NuGet packages &lt;/strong&gt; (8)
+                                    &lt;/h3&gt;
+                                    &lt;p&gt;
+                                        Showing the top 5 NuGet packages that depend on STTech.CodePlus:
+                                    &lt;/p&gt;
+                                    &lt;table class="table borderless" aria-label="Packages that depend on STTech.CodePlus"&gt;
+                                        &lt;thead&gt;
+                                            &lt;tr&gt;
+                                                &lt;th class="used-by-adjust-table-head" scope="col" role="columnheader" tabindex="0"&gt;Package&lt;/th&gt;
+                                                &lt;th class="used-by-adjust-table-head" scope="col" role="columnheader" tabindex="0"&gt;Downloads&lt;/th&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/thead&gt;
+                                        &lt;tbody class="no-border"&gt;
+                                                &lt;tr&gt;
+                                                    &lt;td class="used-by-desc-column" tabindex="0"&gt;
+                                                        &lt;a class="text-left ngp-link" href="/packages/STTech.BytesIO.Core/"&gt;
+                                                            STTech.BytesIO.Core
+                                                        &lt;/a&gt;
+                                                        &lt;p class="used-by-desc"&gt;通信核心库，提供基于字节数组通信的标准接口；内置协议解包器等组件；提供异步通信、同步通信、心跳发送、心跳检测、自动重连等众多实用的扩展功能。&lt;/p&gt;
+                                                    &lt;/td&gt;
+                                                    &lt;td tabindex="0"&gt;
+                                                        &lt;i class="ms-Icon ms-Icon--Download used-by-download-icon" aria-hidden="true"&gt;&lt;/i&gt; &lt;label class="used-by-count"&gt;4.6K&lt;/label&gt;
+                                                    &lt;/td&gt;
+                                                &lt;/tr&gt;
+                                                &lt;tr&gt;
+                                                    &lt;td class="used-by-desc-column" tabindex="0"&gt;
+                                                        &lt;a class="text-left ngp-link" href="/packages/ApeFree.CodePlus.Algorithm/"&gt;
+                                                            ApeFree.CodePlus.Algorithm
+                                                        &lt;/a&gt;
+                                                        &lt;p class="used-by-desc"&gt;常用基础算法库，提供快捷使用的工具类。更多的使用方法请参考项目URL。&lt;/p&gt;
+                                                    &lt;/td&gt;
+                                                    &lt;td tabindex="0"&gt;
+                                                        &lt;i class="ms-Icon ms-Icon--Download used-by-download-icon" aria-hidden="true"&gt;&lt;/i&gt; &lt;label class="used-by-count"&gt;981&lt;/label&gt;
+                                                    &lt;/td&gt;
+                                                &lt;/tr&gt;
+                                                &lt;tr&gt;
+                                                    &lt;td class="used-by-desc-column" tabindex="0"&gt;
+                                                        &lt;a class="text-left ngp-link" href="/packages/ApeFree.DataStore/"&gt;
+                                                            ApeFree.DataStore
+                                                        &lt;/a&gt;
+                                                        &lt;p class="used-by-desc"&gt;ApeFree.DataStore是一款可配置的对象存储库，支持在不同平台/介质中对内存中的对象进行存储与还原（如本地存储、注册表存储）。支持配置序列化格式（如Json、Xml），支持配置压缩算法（如GZip、Defalte），支持配置加密算法（如AES、RES）。&lt;/p&gt;
+                                                    &lt;/td&gt;
+                                                    &lt;td tabindex="0"&gt;
+                                                        &lt;i class="ms-Icon ms-Icon--Download used-by-download-icon" aria-hidden="true"&gt;&lt;/i&gt; &lt;label class="used-by-count"&gt;572&lt;/label&gt;
+                                                    &lt;/td&gt;
+                                                &lt;/tr&gt;
+                                                &lt;tr&gt;
+                                                    &lt;td class="used-by-desc-column" tabindex="0"&gt;
+                                                        &lt;a class="text-left ngp-link" href="/packages/ApeFree.DataStore.Registry/"&gt;
+                                                            ApeFree.DataStore.Registry
+                                                        &lt;/a&gt;
+                                                        &lt;p class="used-by-desc"&gt;基于ApeFree.DataStore提供注册表存储器（仅Windwos平台）的实现。&lt;/p&gt;
+                                                    &lt;/td&gt;
+                                                    &lt;td tabindex="0"&gt;
+                                                        &lt;i class="ms-Icon ms-Icon--Download used-by-download-icon" aria-hidden="true"&gt;&lt;/i&gt; &lt;label class="used-by-count"&gt;503&lt;/label&gt;
+                                                    &lt;/td&gt;
+                                                &lt;/tr&gt;
+                                                &lt;tr&gt;
+                                                    &lt;td class="used-by-desc-column" tabindex="0"&gt;
+                                                        &lt;a class="text-left ngp-link" href="/packages/ApeFree.DataStore.RedisStore/"&gt;
+                                                            ApeFree.DataStore.RedisStore
+                                                        &lt;/a&gt;
+                                                        &lt;p class="used-by-desc"&gt;基于ApeFree.DataStore提供Redis存储器的实现。&lt;/p&gt;
+                                                    &lt;/td&gt;
+                                                    &lt;td tabindex="0"&gt;
+                                                        &lt;i class="ms-Icon ms-Icon--Download used-by-download-icon" aria-hidden="true"&gt;&lt;/i&gt; &lt;label class="used-by-count"&gt;492&lt;/label&gt;
+                                                    &lt;/td&gt;
+                                                &lt;/tr&gt;
+                                        &lt;/tbody&gt;
+                                    &lt;/table&gt;
+
+                                    &lt;h3&gt;
+                                        &lt;strong&gt;GitHub repositories&lt;/strong&gt;
+                                    &lt;/h3&gt;
+                                    &lt;p&gt;
+                                        This package is not used by any popular GitHub repositories.
+                                    &lt;/p&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div role="tabpanel" class="tab-pane " id="versions-tab" aria-label="Versions tab content"&gt;
+                    &lt;div class="version-history" id="version-history"&gt;
+                        &lt;table aria-label="Version History of STTech.CodePlus" class="table borderless"&gt;
+                            &lt;thead&gt;
+                                &lt;tr&gt;
+                                    &lt;th scope="col" role="columnheader" tabindex="0"&gt;Version&lt;/th&gt;
+                                    &lt;th scope="col" role="columnheader" tabindex="0"&gt;Downloads&lt;/th&gt;
+                                    &lt;th scope="col" role="columnheader" tabindex="0"&gt;Last updated&lt;/th&gt;
+                                        &lt;th scope="col" role="columnheader" tabindex="0"&gt;Status&lt;/th&gt;
+                                                                            &lt;th scope="col" role="columnheader" aria-hidden="true" abbr="Signature Information"&gt;&lt;/th&gt;
+                                                                            &lt;th scope="col" role="columnheader" aria-hidden="true" abbr="Package Warnings"&gt;&lt;/th&gt;
+                                &lt;/tr&gt;
+                            &lt;/thead&gt;
+                            &lt;tbody class="no-border"&gt;
+                                        &lt;tr class="bg-info"&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.5.10" title="1.5.10"&gt;
+                                                    1.5.10
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                32
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-10-27T15:42:42.8670000"&gt;2022/10/27&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.5.10/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.5.9" title="1.5.9"&gt;
+                                                    1.5.9
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                152
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-10-07T14:45:17.8300000"&gt;2022/10/7&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.5.9/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.5.5" title="1.5.5"&gt;
+                                                    1.5.5
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                546
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-08-10T16:43:20.5970000"&gt;2022/8/10&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.5.5/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.5.4-alpha0810" title="1.5.4-alpha0810"&gt;
+                                                    1.5.4-alpha0810
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                66
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-08-10T16:23:07.5500000"&gt;2022/8/10&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.5.4-alpha0810/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.5.2-alpha0719" title="1.5.2-alpha0719"&gt;
+                                                    1.5.2-alpha0719
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                67
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-07-19T15:22:20.1300000"&gt;2022/7/19&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.5.2-alpha0719/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.5.1-alpha0717" title="1.5.1-alpha0717"&gt;
+                                                    1.5.1-alpha0717
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                68
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-07-17T14:20:59.7970000"&gt;2022/7/17&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.5.1-alpha0717/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.5.0-alpha0716" title="1.5.0-alpha0716"&gt;
+                                                    1.5.0-alpha0716
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                64
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-07-16T15:04:28.8070000"&gt;2022/7/16&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.5.0-alpha0716/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.4.0" title="1.4.0"&gt;
+                                                    1.4.0
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                1,228
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-07-14T15:10:16.0400000"&gt;2022/7/14&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.4.0/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.3.3" title="1.3.3"&gt;
+                                                    1.3.3
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                775
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-06-26T14:04:49.0030000"&gt;2022/6/26&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.3.3/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.3.2" title="1.3.2"&gt;
+                                                    1.3.2
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                208
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-06-09T15:22:10.4300000"&gt;2022/6/9&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.3.2/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.3.1" title="1.3.1"&gt;
+                                                    1.3.1
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                903
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-04-15T09:32:11.8800000"&gt;2022/4/15&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.3.1/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.3.0" title="1.3.0"&gt;
+                                                    1.3.0
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                155
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-04-09T05:13:33.4430000"&gt;2022/4/9&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.3.0/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.9" title="1.2.9"&gt;
+                                                    1.2.9
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                143
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-04-08T14:10:53.3730000"&gt;2022/4/8&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.9/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.8" title="1.2.8"&gt;
+                                                    1.2.8
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                766
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2022-04-08T07:50:44.9530000"&gt;2022/4/8&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.8/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.7" title="1.2.7"&gt;
+                                                    1.2.7
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                618
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2021-09-10T05:05:08.5670000"&gt;2021/9/10&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.7/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.6" title="1.2.6"&gt;
+                                                    1.2.6
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                184
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2021-09-08T07:11:14.1630000"&gt;2021/9/8&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.6/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.5" title="1.2.5"&gt;
+                                                    1.2.5
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                627
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2021-08-24T12:34:40.5100000"&gt;2021/8/24&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.5/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.4" title="1.2.4"&gt;
+                                                    1.2.4
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                419
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2021-07-19T06:00:45.7800000"&gt;2021/7/19&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.4/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.3" title="1.2.3"&gt;
+                                                    1.2.3
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                210
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2021-07-01T09:18:51.6170000"&gt;2021/7/1&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.3/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.2" title="1.2.2"&gt;
+                                                    1.2.2
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                293
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2021-06-06T02:58:49.6630000"&gt;2021/6/6&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.2/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.1" title="1.2.1"&gt;
+                                                    1.2.1
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                185
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2021-06-04T12:20:18.6700000"&gt;2021/6/4&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.1/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.2.0" title="1.2.0"&gt;
+                                                    1.2.0
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                179
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2021-06-04T12:12:16.0100000"&gt;2021/6/4&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.2.0/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;a href="/packages/STTech.CodePlus/1.1.12" title="1.1.12"&gt;
+                                                    1.1.12
+                                                &lt;/a&gt;
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                223
+                                            &lt;/td&gt;
+                                            &lt;td tabindex="0"&gt;
+                                                &lt;span data-datetime="2021-05-26T10:24:35.9570000"&gt;2021/5/26&lt;/span&gt;
+                                                    
+                                                        by &lt;span title="GuijieLee"&gt;GuijieLee&lt;/span&gt;
+                                                    
+                                            &lt;/td&gt;
+                                                &lt;td tabindex="0"&gt;
+                                                        &lt;a href="/packages/STTech.CodePlus/1.1.12/Manage"&gt;Listed&lt;/a&gt;
+                                                &lt;/td&gt;
+
+                                                    &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+
+                                                &lt;td class="package-icon-cell" aria-hidden="true"&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                        &lt;/table&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;aside aria-label="Package details info" class="col-sm-3 package-details-info"&gt;
+            &lt;div class="sidebar-section"&gt;
+                &lt;div class="row sidebar-headers"&gt;
+                    &lt;div class="col-md-6"&gt;
+                        Downloads
+                    &lt;/div&gt;
+                    &lt;div class="col-md-6 title-links"&gt;
+                            &lt;a href="/stats/packages/STTech.CodePlus?groupby=Version" title="Package Statistics"&gt;Full stats →&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="download-info"&gt;
+                    &lt;div class="download-info-row"&gt;
+                        &lt;span class="download-info-header"&gt;Total&lt;/span&gt;
+                        &lt;span class="download-info-content"&gt;8.1K&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class="download-info-row"&gt;
+                        &lt;span class="download-info-header"&gt;Current version&lt;/span&gt;
+                        &lt;span class="download-info-content"&gt;32&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class="download-info-row"&gt;
+                        &lt;span class="download-info-header"&gt;Per day average&lt;/span&gt;
+                        &lt;span class="download-info-content"&gt;15&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class="sidebar-section"&gt;
+                &lt;div class="sidebar-headers"&gt;About&lt;/div&gt;
+                &lt;ul class="list-unstyled ms-Icon-ul sidebar-links"&gt;
+                    &lt;li&gt;
+                        &lt;i class="ms-Icon ms-Icon--History" aria-hidden="true"&gt;&lt;/i&gt;
+                        Last updated &lt;span data-datetime="2022-10-27T15:42:42.8670000"&gt;2022/10/27&lt;/span&gt;
+                    &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;i class="ms-Icon ms-Icon--Globe" aria-hidden="true"&gt;&lt;/i&gt;
+                            &lt;a href="https://blog.csdn.net/lgj123xj/category_11091207.html" data-track="outbound-project-url" title="Visit the project site to learn more about this package" rel="nofollow"&gt;
+                                Project website
+                            &lt;/a&gt;
+                        &lt;/li&gt;
+
+
+                            &lt;li&gt;
+                                &lt;i class="ms-Icon ms-Icon--Certificate" aria-hidden="true"&gt;&lt;/i&gt;
+&lt;a href="https://licenses.nuget.org/Apache-2.0" aria-label="License Apache-2.0"&gt;Apache-2.0&lt;/a&gt;                                    license
+                            &lt;/li&gt;
+
+                        &lt;li&gt;
+                            &lt;i class="ms-Icon ms-Icon--CloudDownload" aria-hidden="true"&gt;&lt;/i&gt;
+                            &lt;a href="https://www.nuget.org/api/v2/package/STTech.CodePlus/1.5.10" data-track="outbound-manual-download" title="Download the raw nupkg file." rel="nofollow"&gt;Download package&lt;/a&gt;
+                            &amp;nbsp;(53.29 KB)
+                        &lt;/li&gt;
+
+                        &lt;li&gt;
+                            &lt;i class="ms-Icon ms-Icon--FabricFolderSearch" aria-hidden="true" aria-label="nuget.info is a 3rd party website, not controlled by Microsoft. This link is made available to you per the NuGet Terms of Use." title="nuget.info is a 3rd party website, not controlled by Microsoft. This link is made available to you per the NuGet Terms of Use."&gt;&lt;/i&gt;
+                            &lt;a href="https://nuget.info/packages/STTech.CodePlus/1.5.10" data-track="outbound-nugetpackageexplorer-url"
+                                aria-label="open in NuGet Package Explorer"
+                                title="Explore additional package info on NuGet Package Explorer" target="_blank" rel="nofollow noreferrer"&gt;
+                                Open in NuGet Package Explorer
+                            &lt;/a&gt;
+                        &lt;/li&gt;
+
+                        &lt;li&gt;
+                            &lt;img class="icon"
+                                    aria-label="fuget.org is a 3rd party website, not controlled by Microsoft. This link is made available to you per the NuGet Terms of Use." title="fuget.org is a 3rd party website, not controlled by Microsoft. This link is made available to you per the NuGet Terms of Use."
+                                    src="https://www.nuget.org/Content/gallery/img/fuget.svg"
+                                        onerror="this.src='https://www.nuget.org/Content/gallery/img/fuget-32x32.png'; this.onerror = null;"
+ /&gt;
+                            &lt;a href="https://www.fuget.org/packages/STTech.CodePlus/1.5.10" data-track="outbound-fuget-url"
+                                aria-label="open in fuget.org explorer"
+                                title="Explore additional package info on fuget.org" target="_blank" rel="nofollow noreferrer"&gt;
+                                Open in FuGet Package Explorer
+                            &lt;/a&gt;
+                        &lt;/li&gt;
+
+                &lt;/ul&gt;
+            &lt;/div&gt;
+
+                &lt;div class="sidebar-section"&gt;
+                    &lt;div class="sidebar-headers"&gt;Manage&lt;/div&gt;
+                    &lt;ul class="list-unstyled ms-Icon-ul sidebar-links"&gt;
+                            &lt;li&gt;
+                                &lt;i class="ms-Icon ms-Icon--Edit" aria-hidden="true"&gt;&lt;/i&gt;
+                                &lt;a href="/packages/STTech.CodePlus/1.5.10/Manage"&gt;Manage package&lt;/a&gt;
+                            &lt;/li&gt;
+                        
+
+
+
+                            &lt;li&gt;
+                                &lt;i class="ms-Icon ms-Icon--Help" aria-hidden="true"&gt;&lt;/i&gt;
+                                &lt;a href="/packages/STTech.CodePlus/1.5.10/ReportMyPackage" title="Contact the NuGet team for help with your package"&gt;
+                                    Contact support
+                                &lt;/a&gt;
+                            &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+
+            &lt;div class="sidebar-section"&gt;
+                &lt;div class="row sidebar-headers"&gt;
+                    &lt;div class="col-md-6"&gt;
+                        Owners
+                    &lt;/div&gt;
+                    &lt;div class="col-md-6 title-links"&gt;
+                        &lt;a href="/packages/STTech.CodePlus/1.5.10/ContactOwners" title="Ask the package owners a question"&gt;Contact owners →&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                    &lt;ul class="list-unstyled owner-list"&gt;
+                            &lt;li&gt;
+                                    &lt;a href="/profiles/GuijieLee" title="GuijieLee"&gt;
+                                        &lt;img src="/profiles/GuijieLee/avatar?imageSize=64"
+                                class="owner-image"
+                                height="32"
+                                width="32"
+                                title="GuijieLee"
+                                alt="GuijieLee gravatar" /&gt;
+                                    &lt;/a&gt;
+                                &lt;a href="/profiles/GuijieLee" title="GuijieLee"&gt;
+                                    GuijieLee
+                                &lt;/a&gt;
+                            &lt;/li&gt;
+                    &lt;/ul&gt;
+
+
+            &lt;/div&gt;
+                
+                    &lt;p&gt;Copyright &amp;#169; 2019-2022 KarFans, All Rights Reserved.&lt;/p&gt;
+
+                &lt;p class="share-buttons"&gt;
+                    &lt;a href="https://www.facebook.com/sharer/sharer.php?u=https://www.nuget.org/packages/STTech.CodePlus/&amp;t=Check+out+STTech.CodePlus+on+%23NuGet." target="_blank" rel="nofollow noreferrer"&gt;
+                        &lt;img width="24" height="24" alt="Share this package on Facebook"
+                                src="https://www.nuget.org/Content/gallery/img/facebook.svg"
+                                    onerror="this.src='https://www.nuget.org/Content/gallery/img/facebook-24x24.png'; this.onerror = null;"
+ /&gt;
+                    &lt;/a&gt;
+                    &lt;a href="https://twitter.com/intent/tweet?url=https://www.nuget.org/packages/STTech.CodePlus/&amp;text=Check+out+STTech.CodePlus+on+%23NuGet." target="_blank" rel="nofollow noreferrer"&gt;
+                        &lt;img width="24" height="24" alt="Tweet this package"
+                                src="https://www.nuget.org/Content/gallery/img/twitter.svg"
+                                    onerror="this.src='https://www.nuget.org/Content/gallery/img/twitter-24x24.png'; this.onerror = null;"
+ /&gt;
+                    &lt;/a&gt;
+                        &lt;a href="/packages/STTech.CodePlus/atom.xml" data-track="atom-feed"&gt;
+                            &lt;img width="24" height="24" alt="Use the Atom feed to subscribe to new versions of STTech.CodePlus"
+                                    src="https://www.nuget.org/Content/gallery/img/rss.svg"
+                                        onerror="this.src='https://www.nuget.org/Content/gallery/img/rss-24x24.png'; this.onerror = null;"
+ /&gt;
+                        &lt;/a&gt;
+                &lt;/p&gt;
+        &lt;/aside&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+    &lt;/div&gt;
+    &lt;footer class="footer"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-sm-4"&gt;
+                &lt;span class="footer-heading"&gt;&lt;a href="/policies/Contact"&gt;Contact&lt;/a&gt;&lt;/span&gt;
+                &lt;p&gt;
+                    Got questions about NuGet or the NuGet Gallery?
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-sm-4"&gt;
+                &lt;span class="footer-heading"&gt;&lt;a href="https://status.nuget.org/"&gt;Status&lt;/a&gt;&lt;/span&gt;
+                &lt;p&gt;
+                    Find out the service status of NuGet.org and its related services.
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-sm-4"&gt;
+                &lt;span class="footer-heading"&gt;
+                    &lt;a aria-label="Frequently Asked Questions" href="https://docs.microsoft.com/en-us/nuget/policies/nuget-faq"&gt;
+                        &lt;abbr title="Frequently Asked Questions"&gt;FAQ&lt;/abbr&gt;
+                    &lt;/a&gt;
+                &lt;/span&gt;
+                &lt;p&gt;
+                    Read the Frequently Asked Questions about NuGet and see if your question made the list.
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-md-3 row-gap"&gt;
+                &lt;img alt="" aria-hidden="true" width="184" height="57"
+                     src="/Content/gallery/img/logo-footer.svg"
+                         onerror="this.src='https://www.nuget.org/Content/gallery/img/logo-footer-184x57.png'; this.onerror = null;"
+ /&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-9 row-gap"&gt;
+                &lt;div class="row"&gt;
+                        &lt;div class="col-md-12 footer-release-info"&gt;
+                            &lt;p&gt;
+                                        &amp;#169; Microsoft 2022 -
+
+                                &lt;a href="/policies/About"&gt;About&lt;/a&gt; -
+                                &lt;a href="/policies/Terms"&gt;Terms of Use&lt;/a&gt; -
+                                &lt;a href="https://go.microsoft.com/fwlink/?LinkId=521839" id="footer-privacy-policy-link"&gt;Privacy Policy&lt;/a&gt;
+                                    - &lt;a href="https://www.microsoft.com/trademarks"&gt;Trademarks&lt;/a&gt;
+                                &lt;br /&gt;
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;!--
+    This is the NuGet Gallery version 4.4.5-main.
+        Deployed from 61e0169 Link: https://www.github.com/NuGet/NuGetGallery/commit/61e0169
+        Built on main Link: https://www.github.com/NuGet/NuGetGallery/tree/main
+        Built on 2022-10-21T00:09:17.0000000+00:00
+    Deployment label: PROD-USNC-4.4.5-main-6855762
+    You are on RD0003FFF9F58C.
+--&gt;
+
+&lt;/footer&gt;
+
+        &lt;script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"&gt;&lt;/script&gt;
+
+    &lt;script src="/Scripts/gallery/site.min.js?v=-9HBSOVXQbOiqM0GUh0R5AyHkl5w9HyOphMkvmnQSME1"&gt;&lt;/script&gt;
+
+    
+
+
+    &lt;style type="text/css"&gt;
+        #package-manager .install-command-row::before {    content: "PM&gt; "}#dotnet-cli .install-command-row::before {    content: "&gt; "}#paket-cli .install-command-row::before {    content: "&gt; "}#script-interactive .install-command-row::before {    content: "&gt; "}
+    &lt;/style&gt;
+
+    &lt;script type="text/javascript"&gt;
+        var packageId = "STTech.CodePlus";
+        var packageVersion = "1.5.10";
+        var packageManagers = ["package-manager","dotnet-cli","package-reference","paket-cli","script-interactive","cake"];
+    &lt;/script&gt;
+
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js" integrity="sha512-gU7kztaQEl7SHJyraPfZLQCNnrKdaQi5ndOyt4L4UPL/FHDd/uB9Je6KDARIqwnNNE27hnqoWLBq+Kpe4iHfeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"&gt;&lt;/script&gt;
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/fsharp.min.js" integrity="sha512-DXYctkkhmMYJ4vYp4Dm6jprD4ZareZ7ud/d9mGCKif/Dt3FnN95SjogHvwKvxXHoMAAkZX6EO6ePwpDIR1Y8jw==" crossorigin="anonymous" referrerpolicy="no-referrer"&gt;&lt;/script&gt;
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/dos.min.js" integrity="sha512-mz4SrGyk+dtPY9MNYOMkD81gp8ajViZ4S0VDuM/Zqg40cg9xgIBYSiL5fN79Htbz4f2+uR9lrDO6mgcjM+NAXA==" crossorigin="anonymous" referrerpolicy="no-referrer"&gt;&lt;/script&gt;
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/powershell.min.js" integrity="sha512-pnt8OPBTOklRd4/iSW7msOiCVO4uvffF17Egr3c7AaN0h3qFnSu7L6UmdZJUCednMhhruTLRq7X9WbyAWNBegw==" crossorigin="anonymous" referrerpolicy="no-referrer"&gt;&lt;/script&gt;
+        &lt;script&gt;
+        document.addEventListener('DOMContentLoaded', (event) =&gt; {
+            document.querySelectorAll('pre code').forEach((el) =&gt; {
+                hljs.highlightElement(el);
+            });
+        });
+        &lt;/script&gt;
+
+    &lt;script src="/Scripts/gallery/page-display-package.min.js?v=3MvfOIhQ1ylbjzk_RUSLYr9quZNfLNuawZTlkBSAK6A1"&gt;&lt;/script&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>

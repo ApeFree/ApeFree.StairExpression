@@ -13,10 +13,10 @@ using System.Windows.Forms;
 
 namespace ApeFree.StairExpression.Demo
 {
-    public partial class Form1 : Form
+    public partial class HtmlDemoForm : Form
     {
         HtmlAgilityPack.HtmlDocument doc;
-        public Form1()
+        public HtmlDemoForm()
         {
             InitializeComponent();
 
@@ -24,15 +24,11 @@ namespace ApeFree.StairExpression.Demo
             doc.LoadHtml(tbHtml.Text);
         }
 
-        private void tbExpression_TextChanged(object sender, EventArgs e)
+        private void cbExpression_TextChanged(object sender, EventArgs e)
         {
-            tbResult.Clear();
-
             try
             {
-
-
-                var result = HtmlStairActuator.Query(doc, tbExpression.Text);
+                var result = HtmlStairActuator.Query(doc, $"{cbExpression.Text}*");
 
                 StringBuilder sb = new StringBuilder($"共查询到[{result.Nodes.Count}]条结果：\r\n\r\n");
                 int index = 1;
@@ -44,7 +40,6 @@ namespace ApeFree.StairExpression.Demo
                     //sb.AppendLine(node.Node.XPath);
                     sb.AppendLine();
                 }
-
                 tbResult.Text = sb.ToString();
             }
             catch (Exception ex)
@@ -53,48 +48,40 @@ namespace ApeFree.StairExpression.Demo
             }
         }
 
-        private void cbExpression_TextChanged(object sender, EventArgs e)
+        private void cbExpression_KeyDown(object sender, KeyEventArgs e)
         {
-            tbResult.Clear();
-
-            if (cbExpression.Text.EndsWith("."))
+            if (e.KeyCode == Keys.Decimal || e.KeyCode == Keys.OemPeriod)
             {
-                var result = HtmlStairActuator.Query(doc, cbExpression.Text.Substring(0, cbExpression.Text.Length - 1));
+                var result = HtmlStairActuator.Query(doc, cbExpression.Text);
                 cbExpression.Items.Clear();
 
                 List<string> nodeNames = new List<string>();
                 foreach (var node in result.Nodes)
                 {
-                    nodeNames.AddRange(node.Node.ChildNodes.Where(n=>n.NodeType== HtmlNodeType.Element).Select(n => n.Name));
+                    nodeNames.AddRange(node.Node.ChildNodes.Where(n => n.NodeType == HtmlNodeType.Element).Select(n => n.Name));
                 }
+
                 if (nodeNames.Any())
                 {
-                    var pathArray = nodeNames.Distinct().Select(name => $"{cbExpression.Text}{name}").ToArray();
+                    cbExpression.Items.Clear();
+
+                    var pathArray = nodeNames.Distinct().Select(name => $"{cbExpression.Text}.{name}").ToArray();
                     cbExpression.Items.AddRange(pathArray);
                     cbExpression.DroppedDown = true;
+                    cbExpression.SelectionStart = cbExpression.Text.Length;
+
+                    e.SuppressKeyPress = true;
+                }
+                else
+                {
+                    tbResult.Text = "未找到任何子集。";
                 }
                 return;
             }
 
-            try
+            if(e.KeyCode == Keys.Enter)
             {
-                var result = HtmlStairActuator.Query(doc, cbExpression.Text);
-
-                StringBuilder sb = new StringBuilder($"共查询到[{result.Nodes.Count}]条结果：\r\n\r\n");
-                int index = 1;
-                foreach (var node in result.Nodes)
-                {
-                    sb.AppendLine($"---------------- 结果{index++} ----------------");
-                    sb.AppendLine(node.Node.OuterHtml.Trim());
-                    //sb.AppendLine(node.Node.GetPath());
-                    //sb.AppendLine(node.Node.XPath);
-                    sb.AppendLine();
-                }
-                tbResult.Text = sb.ToString();
-            }
-            catch (Exception ex)
-            {
-                tbResult.Text = ex.Message;
+                cbExpression.SelectionStart = cbExpression.Text.Length;
             }
         }
     }
